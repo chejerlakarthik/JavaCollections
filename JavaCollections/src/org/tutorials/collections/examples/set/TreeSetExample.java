@@ -25,6 +25,7 @@ public class TreeSetExample {
 		cities.add("Hyderabad");
 		cities.add("New Delhi");
 		cities.add("Mumbai");
+		//cities.add(null);     //This statement will throw a null pointer exception.
 
 		Iterator<String> iterator = cities.iterator();
 
